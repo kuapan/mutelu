@@ -14,12 +14,17 @@
   }
 
 body{
-font-family: 'krungsri_simple_medium';
-font-size: 13px;
+font-family: 'krungsri_simple';
+font-size: 12px;
 font-weight: 400;
 line-height: 1.5;
 color: #212529;
-}  
+} 
+
+h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
 
 a {
     color: #007bff;
@@ -27,6 +32,7 @@ a {
     background-color: transparent;
 }
 label{
+    font-family: 'krungsri_simple_medium';
     color: #58595B;
 }
 .QuickApply-H1 h1 {
@@ -83,7 +89,7 @@ label{
     align-items: start;
   }
   
-  .ctn-regis-form input[type=submit], .ctn-form input[type=submit] {
+  .rec-number input[type=submit], .ctn-form input[type=submit] {
     display: -moz-inline-stack;
     display: inline-block;
     vertical-align: top;
@@ -134,4 +140,49 @@ label{
     padding: 5px 0px 5px 0px;
     font-size: 12px;
     text-align: center;
+}
+
+
+#rec-number-submit-btn:disabled{
+    background-color: #E0DBDB !important;
+}
+
+.rec-number .note{
+    font-size: 0.7rem;
+    color: #dee2e6;
+}
+.rec-number input[type=submit]{
+    width: 150px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.lucky-number .card{
+    min-height: 100px;
+}
+.lucky-number .card:hover{
+    background-color: #FFD400;
+}
+.lucky-number .manual-number{
+    width: 100%;
+    border: 1px solid #eee;
+    text-align: center;
+    padding: 8px;
+}
+
+.card-selected{
+    background-color: #FFD400;
+}
+
+.fa-heart{
+    color: red;
+}
+.fa-coins{
+    color: orangered;
+}
+.fa-briefcase{
+    color: brown;
+}
+.fa-stethoscope{
+    color: green;
 }
