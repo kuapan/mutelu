@@ -1,0 +1,137 @@
+
+@font-face {
+    font-family: "krungsri_simple";
+    src: local("Helvetica Neue Bold"), local("HelveticaNeue-Bold"),
+      url("assets/fonts/Krungsri Simple.ttf");
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: "krungsri_simple_medium";
+    src: local("Helvetica Neue Bold"), local("HelveticaNeue-Bold"),
+      url("assets/fonts/Krungsri Simple Med.ttf");
+    font-weight: bold;
+  }
+
+body{
+font-family: 'krungsri_simple_medium';
+font-size: 13px;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+}  
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+label{
+    color: #58595B;
+}
+.QuickApply-H1 h1 {
+    font-family: 'krungsri_simple_medium';
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.QuickApply-Banner {
+    max-width: 580px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.regis-custom-form .form-control {
+    margin: 15px auto;
+    padding: 10px 15px;
+    width: 100%;
+    height: 40px;
+    border: solid 1px #dee2e6;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    font-size: 8px;
+    font-size: 0.8rem;
+    color: #58595B;
+    outline: none;
+}
+
+.ctn-regis-form .editing-form-control-nested-control, 
+.ctn-form .editing-form-control-nested-control {
+    text-align: left;
+}
+
+.ktc-checkbox input, .ctn-form .ktc-checkbox input {
+    width: auto;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+.ctn-regis-form .ktc-checkbox label, .ctn-form .ktc-checkbox label {
+    width: 90%;
+    /* display: inline; */
+    line-height: 1.5;
+    /* position: relative; */
+    /* top: -15px; */
+    /* left: 10px; */
+    text-align: left;
+}
+.checkbox-container {
+    display: flex;
+    align-items: start;
+  }
+  
+  .ctn-regis-form input[type=submit], .ctn-form input[type=submit] {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    transition: 0.4s;
+    padding: 10px 5px;
+    width: 180px;
+    border-radius: 50px;
+    background-color: #FFD400;
+    text-align: center;
+    color: #6F5F5E !important;
+    cursor: pointer;
+    border: none;
+    font-size: 1.1rem;
+}
+
+.accordion-item{
+    margin-bottom: 10px;
+}
+.accordion-item .accordion-button{
+    font-family: 'krungsri_simple_medium';
+    border: 0 !important;
+    padding: 10px;
+    font-size: 0.8rem;
+    background-color: #E0DBDB;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #212529;
+    background-color: #FFD900;
+}
+
+.Quick-Apply-Footer {
+    width: 100%;
+    background-color: #ffd504;
+    text-align: center;
+}
+.Quick-Apply-Footer-copyright {
+    font-family: 'krungsri_simple_medium';
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 5px 0px 5px 0px;
+    font-size: 12px;
+    text-align: center;
+}
