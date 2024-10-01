@@ -254,6 +254,10 @@ var bd = {
     }
 }
 
+$("#apply-card").on('click', function(){
+window.location.href = 'apply.html';
+});
+
 $("#rec-number-submit-btn").on('click', function () {
     bd.CalculateNumber();
 })

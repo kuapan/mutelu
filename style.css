@@ -112,6 +112,10 @@ label{
     font-size: 1.1rem;
 }
 
+.number-submit-btn{
+    width: 250px !important;
+}
+
 .accordion-item{
     margin-bottom: 10px;
 }
