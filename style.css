@@ -132,6 +132,10 @@ label{
     background-color: #FFD900;
 }
 
+.accordion-body{
+    line-height: 2;
+}
+
 .Quick-Apply-Footer {
     width: 100%;
     background-color: #ffd504;
